@@ -1,0 +1,68 @@
+body{
+    background: url(images/pic3.webp) center center fixed;
+    background-size: cover;
+    color: white;   
+}
+#header{
+    text-align: center;
+    font-size: 4vw;
+}
+#Lap{
+    
+    text-align: right;
+    font-size: 2vw;
+    padding-right: 30px;
+}
+#time{
+    text-align: center;
+    font-size: 5vw;
+}
+#controlsContainer{
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.control{
+    color: white;
+    background-color:#B79261 ;
+    height: 6vw;
+    width: 6vw;
+    border-radius: 50%;
+    text-align: center;
+    padding: 15% 0;
+    font-size: large;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.buttons{
+    margin: 20px;
+}
+.control:hover{
+    box-shadow: 0px 0px 20px 10px #e2ddd7;
+}
+.control:active{
+    background: transparent;
+}
+#laps{
+    max-height: 270px;
+   /* overflow-y: scroll;*/
+}
+.lap{
+    height: 50px;
+    border-bottom: 1px solid white;
+    margin-top: 15px;
+    padding: 10px 50px;
+}
+.laptimetitle{
+    font-size: 1.5em;
+    float: left;
+}
+.laptime{
+    font-size: 2em;
+    float: right;
+}
